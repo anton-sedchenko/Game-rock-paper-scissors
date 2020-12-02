@@ -1,0 +1,94 @@
+body {
+  font-family: arial, sans-serif;
+  font-size: 1.1rem;
+  background-color: #EBEBEB;
+}
+
+h2 {
+  margin: 0 0 10px;
+}
+
+.header-content {
+  position: relative;
+}
+
+.total-score-container {
+  position: absolute;
+  top: 50px;
+  right: 100px;
+  width: 200px;
+  text-align: left;
+}
+
+.rules__img-container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.rules__text-container {
+  margin: 0 auto;
+  width: 500px;
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.btn-container,
+.reset-container {
+  padding: 20px;
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.reset-container {
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.btn {
+  font-size: 1.2rem;
+  padding: 10px;
+}
+
+.reset-link {
+  text-decoration: none;
+  color: #62436F;
+}
+
+.reset-link:hover {
+  color: green;
+}
+
+.highlight {
+  background-color: yellow;
+}
+
+.results-container {
+  width: 300px;
+  margin: 0 auto;
+  border-radius: 20px;
+  height: 100px;
+  font-size: 1.7rem;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+p {
+  margin: 0;
+}
+
+.resultsNpcStr {
+  font-size: 1rem;
+}
+
+.current-stats-container {
+  width: 300px;
+  margin: 0 auto;
+  height: 100px;
+  font-size: 1rem;
+  padding: 20px 10px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Game</title>
+      <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <header>
+      <div class="header-content">
+        <div class="total-score-container">
+          <h2>Total score:</h2>
+          <p class="player-total-score"></p>
+          <p class="npc-total-score"></p>
+        </div>
+        <div class="rules__img-container">
+          <img class="fon-image" src="img/fon.jpeg">
+        </div>
+        <div class="rules__text-container">
+          <p><strong>Rules:</strong> a player who decides to play rock will beat another player who has chosen scissors ("rock crushes scissors"), but will lose to one who has played paper ("paper covers rock"); a play of paper will lose to a play of scissors ("scissors cuts paper").
+          </p>
+        </div>
+      </div>
+      <h1>Let's play!</h1>  
+    </header>
+
+    <main>
+      <div class="btn-container">
+        <button id="rock" class="btn">Rock</button>
+        <button id="paper" class="btn">Paper</button>
+        <button id="scissors" class="btn">Scissors</button>        
+      </div>
+      <div class="reset-container">
+        <a class="reset-link" href="">Reset</a>
+      </div>
+      <div class="results-container">
+        <p class="npc-choice"></p>
+        <p class="round-result"></p>
+      </div>
+      <div class="current-stats-container">
+        <p class="current-player-stats"></p>
+        <p class="current-npc-stats"></p>
+      </div>
+    </main>
+    
+    <script src="js/script.js"></script>
+  </body>
+</html>
